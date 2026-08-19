@@ -1,35 +1,115 @@
+<!DOCTYPE html>
+<html>
 
-jamesnatano2008-commits
-Update README.md
-d9827d2
- · 
-4 minutes ago
-Name		
-1.jpg
-Add files via upload
-yesterday
-1786432199368.png
-Add files via upload
-5 minutes ago
-1786432207374.png
-Add files via upload
-5 minutes ago
-1786432212090.png
-Add files via upload
-5 minutes ago
-1786432216523.png
-Add files via upload
-5 minutes ago
-1786432221042.png
-Add files via upload
-5 minutes ago
-1786432225675.png
-Add files via upload
-5 minutes ago
-1786432230623.png
-Add files via upload
-5 minutes ago
-1786432234925.png
-Add files via upload
-5 minutes ago
-1786432238896.png
+<head>
+    <title>Miltea shop</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Internal CSS -->
+    <style>
+
+
+
+        body {
+        background-color: #3B240B;  
+        margin: 0;
+    }
+        p{
+            font-size:18px;
+            text-align:center;
+            color:white;
+        }
+
+        h2{
+            color:white;
+            text-align:center;
+        }
+
+
+
+         /* ===== NAVIGATION BAR ===== */
+        .navbar {
+            background-color:blue;
+            padding: 15px 30px;
+            text-align: center;
+        }
+
+        .navbar a {
+            color: blue;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 17px;
+            padding: 8px 12px;
+        }
+
+        .navbar a:hover {
+            color:blue;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="Gallery.html">Gallery</a>
+        <a href="contacts.html">Contact</a>
+        <a href="aboutus.html">About Us</a>
+    </nav>
+
+    <!-- Inline CSS -->
+    <h1 style="color:White; text-align:center;">
+        Enjoy At Lasapin Ang Sarap ng Milk tea
+    </h1>
+
+ <div class="slider">
+
+    <div class="slides fade">
+        <img src="images/jim.png">
+    </div>
+
+    <div class="slides fade">
+        <img src="images/etis2.png">
+    </div>
+
+    <div class="slides fade">
+        <img src="images/etis3.png">
+    </div>
+
+    <!-- Previous -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+
+    <!-- Next -->
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+
+<!-- Dots -->
+<div class="dots">
+
+    <span class="dot" onclick="currentSlide(1)"></span>
+
+    <span class="dot" onclick="currentSlide(2)"></span>
+
+    <span class="dot" onclick="currentSlide(3)"></span>
+
+</div>
+
+<script src="script.js"></script>
+
+    <h2>Welcome!</h2>
+
+    <p>
+        Welcome to our Milktea Shop! Thank you for visiting  we serve fresh, creamy, and high-quality milktea made with love. Sit back, relax, and enjoy your favorite drink! ✨
+    </p>
+
+    <p>
+        We are so glad you're here. Come and taste our best-selling milktea  crafted with premium ingredients and served fresh just for you! 💚
+    </p>
+
+</body>
+
+</html>
